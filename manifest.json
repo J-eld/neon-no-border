@@ -1,13 +1,13 @@
 {
     "manifest_version": 3,
     "name": "Neon no border",
-    "description": "Gets rid of the outline around videos in Neon.",
+    "description": "An extension that gets rid of the blue border sometimes surrounding videos on Neon.",
     "version": "1.0.0",
     "action": {
         "default_icon": "icons/neon-no-border-16.png",
         "default_title": "Neon no border"
     },
-    "permissions": ["activeTab", "tabs", "scripting"],
+    "permissions": ["tabs", "scripting"],
     "host_permissions": ["https://www.neontv.co.nz/"],
     "background": {
         "service_worker": "background.js"
